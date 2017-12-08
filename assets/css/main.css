@@ -2336,10 +2336,13 @@
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 50%;
+		}
+		.image.right.small {
+			max-width: 10%;
 		}
 
-			.image.left img, .image.right img {
+			.image.left img, .image.right img, .image.right.small {
 				width: 100%;
 			}
 
@@ -2350,6 +2353,12 @@
 		}
 
 		.image.right {
+			float: right;
+			padding: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		.image.right.small {
 			float: right;
 			padding: 0 0 1em 1.5em;
 			top: 0.25em;
