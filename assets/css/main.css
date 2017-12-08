@@ -2609,8 +2609,8 @@
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(33.33333% - 2.5em);
-			margin: 2.5em 0 0 2.5em;
+			width: calc(50% - 5em);
+			margin: 5em 0 0 5em;
 		}
 
 			.tiles article > .image {
@@ -2734,9 +2734,9 @@
 					opacity: 0;
 				}
 
-					.tiles article > a .content > :last-child {
-						margin-bottom: 0;
-					}
+				.tiles article > a .content > :last-child {
+					margin-bottom: 0;
+				}
 
 			.tiles article.style1 > .image:before {
 				background-color: #f2849e;
@@ -2783,10 +2783,6 @@
 				opacity: 1;
 			}
 
-		* + .tiles {
-			margin-top: 2em;
-		}
-
 		body.is-loading .tiles article {
 			-moz-transform: scale(0.9);
 			-webkit-transform: scale(0.9);
@@ -2807,7 +2803,7 @@
 			}
 
 				.tiles article {
-					width: calc(33.33333% - 1.25em);
+					width: calc(50% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
 
